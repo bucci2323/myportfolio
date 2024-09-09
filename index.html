@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+  
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I am VICTOR MARTINS, a Software Developer.</p>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/WhatsApp Image 2024-08-27 at 14.04.09.jpeg" alt="Your Name">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>Hi, I'm Victor , a Software Developer with experience in Building web application . I'm passionate about [Your Passion], and I enjoy working on [Type of Projects You Love].</p>
+                <p>In my career, I've worked on projects involving [List a few types of projects]. I'm always eager to learn new things and take on challenging projects that push my skills to the next level.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="images/project1.jpg" alt="Project 1">
+                <div class="portfolio-info">
+                    <h3>Project Title</h3>
+                    <p>Project description goes here.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/imeme.jpeg" alt="Project 2">
+                <div class="portfolio-info">
+                    <h3>Stack</h3>
+                    <p>Project description goes here.</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/imeme.jpeg" alt="Project 2">
+                <div class="portfolio-info">
+                    <h3>Stack</h3>
+                    <p>Project description goes here.</p>
+                </div>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </section>
+    
+
+
+
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 92%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Typscript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+                <h3>Nodejs</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+                <h3>Mysql
+                
+                </h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+            <!-- Add more skills as needed -->
+        </div>
+        <!-- <div class="skill-level" style="--width: 90%;"></div> -->
+
+    </section>
+    
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p>If you have any questions, feel free to reach out to me by filling out the form below or sending an email directly to <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <footer id="footer">
+        <div class="footer-container">
+            <nav class="footer-nav">
+                <a href="#about">About</a> | 
+                <a href="#portfolio">Portfolio</a> | 
+                <a href="#contact">Contact</a>
+            </nav>
+            
+            <div class="footer-socials">
+                <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+                
+                <!-- Add more social links as needed -->
+            </div>
+            <p>&copy; 2024 Victor Martins. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+<script src="app.js"></script>
+</html>

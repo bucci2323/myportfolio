@@ -1,4 +1,4 @@
-/* Basic Styling for the Nav */
+
 body{
     margin: 0;
 }
@@ -35,7 +35,6 @@ nav ul li a:hover {
     color: #2ecc71;
 }
 
-/* Hamburger Menu Styling */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -50,7 +49,6 @@ nav ul li a:hover {
     transition: all 0.3s ease;
 }
 
-/* Hero Section */
 #home {
     background-image: url('images/download\ \(1\).jpeg');
     background-size: cover;
@@ -83,7 +81,6 @@ nav ul li a:hover {
     animation: fadeInUp 2s ease-out;
 }
 
-/* About Section Styling */
 #about {
     padding: 4em 2em;
     background-color: #d7cfcf;
@@ -131,7 +128,6 @@ nav ul li a:hover {
     margin-bottom: 1.5em;
 }
 
-/* Media Query for Responsive About Section */
 @media (min-width: 768px) {
     .about-container {
         flex-direction: row;
@@ -163,8 +159,6 @@ nav ul li a:hover {
     }
 }
 
-
-/* Portfolio Section Styling */
 #portfolio {
     padding: 4em 2em;
     background-color: #d7cfcf;
@@ -223,7 +217,6 @@ nav ul li a:hover {
     font-size: 1em;
 }
 
-/* Hover Effects */
 .portfolio-item:hover img {
     transform: scale(1.1);
 }
@@ -232,7 +225,6 @@ nav ul li a:hover {
     opacity: 1;
 }
 
-/* Media Query for Responsive Portfolio Section */
 @media (min-width: 768px) {
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
@@ -254,7 +246,6 @@ nav ul li a:hover {
 }
 
 
-/* Skills Section Styling */
 #skills {
     padding: 4em 2em;
     background-color: #000000;
@@ -306,7 +297,6 @@ nav ul li a:hover {
     transition: width 1s ease-in-out;
 }
 
-/* Media Query for Responsive Skills Section */
 @media (min-width: 768px) {
     .skills-container {
         grid-template-columns: repeat(2, 1fr);
@@ -328,7 +318,6 @@ nav ul li a:hover {
 }
 
 
-/* Animations */
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -351,7 +340,6 @@ nav ul li a:hover {
     }
 }
 
-/* Contact Section Styling */
 #contact {
     padding: 4em 2em;
     background-color: #000000;
@@ -418,7 +406,6 @@ button[type="submit"]:hover {
     background-color: #2980b9;
 }
 
-/* Media Query for Mobile */
 @media (max-width: 768px) {
     #contact h2 {
         font-size: 2em;
@@ -430,7 +417,7 @@ button[type="submit"]:hover {
 }
 
 
-/* Footer Styling */
+
 #footer {
     padding: 2em 1em;
     background-color: #000000;
@@ -477,7 +464,6 @@ button[type="submit"]:hover {
 
 
 
-/* Media Query for Mobile */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -518,7 +504,6 @@ button[type="submit"]:hover {
     }
 }
 
-/* Hamburger Animation */
 .menu-toggle.open .bar:nth-child(1) {
     transform: rotate(-45deg) translate(-5px, 6px);
 }
